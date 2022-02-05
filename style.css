@@ -1,0 +1,76 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+/* .search input[type=text]{ 
+    width: 200px;
+    height: 20px;
+    border-radius: 20px;
+    border: none; 
+    margin-left: 10;
+} */
+.input-group{
+    background-color: rgb(228, 102, 48); 
+    border: 2px solid #fff; 
+    box-shadow: none; 
+    border-radius: 50px;
+    color: #fff;
+   }
+
+   .input-group :-webkit-input-placeholder,
+    .input-group :-moz-placeholder, 
+    .input-group ::-moz-placeholder, 
+    .input-group :-ms-input-placeholder { 
+      color: #fff;
+      font-weight: bold;
+   } 
+
+.music-container{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 20px 20px 0 rgba(255,169,19, 0.6);
+    display: flex;
+    padding: 20px 30px;
+    position: relative;
+    margin: 100px 0;
+    z-index: 10;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+}
+.btn-group{
+
+}
+
+.btn{
+    background-color: white;
+    border: 0;
+    color: #dfdbdf;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 20px;
+
+}
+.btn:focus{
+    outline: 0;
+}
+.progress{
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    height: 4px;
+    width: 100px;
+}
+.progress-bar{
+    background-color:#fe8daa ;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+}

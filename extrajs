@@ -1,0 +1,37 @@
+// document.getElementById("myBtn").addEventListener("click", myFunction);
+
+// function myFunction() {
+//   document.getElementById("demo").innerHTML = "Hello World";
+// }
+
+// var button = document.getElementById("button");
+// button.addEventListener("click", function(event){
+//    alert(event.target);
+// });
+
+// var myElem = document.getElementByID('ElemID');
+// myElem.onclick = function() {
+// 	//do stuff
+// }
+
+// Create variable for what you are trying to click
+// let button = document.querySelector("#IDofItem");
+
+// // Click the button
+
+// if (button) {
+//   button.click();
+// }
+// else {
+//   console.log("Error");
+// }
+
+// element.addEventListener("click", function(){ 
+//     element.innerText = "something"; 
+//  }); 
+
+// document.querySelector("button").addEventListener("click", handle);
+
+// function handle() {
+//   alert("I got clicked")
+// }
